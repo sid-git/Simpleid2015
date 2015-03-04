@@ -258,6 +258,9 @@ a {
 	-o-transition: all 0.25s ;
 
 }
+.position-relative {
+	position: relative;
+}
 
 .text-bold {
 	/*font-family: "DIN Next W01 Medium " ;*/
@@ -809,7 +812,7 @@ background: #fff
 div.new-banner {
 	position: relative;
 	background-color:#d94b17;
-	min-height: 129px;
+	min-height: 450px;
 }
 div.new-banner {
 	margin: 0 auto;
@@ -873,6 +876,14 @@ div.banner-365 {
 	height:511px;
 	background-color:#eb501a;
 }
+div.banner-it {
+	background: url(../img/product-banners_office.jpg) no-repeat;
+	background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+}
 div.office-banner {
 	height:511px;
 }
@@ -885,7 +896,7 @@ left: 3%;
 }
 div.new-banner div.banner-des {
 	position: absolute;
-	top:330px;
+	top: 150px;
 	left:17%;
 	text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
 }
@@ -1500,6 +1511,7 @@ a.lets-talk {
 	width: 174px;
 	margin:15px auto;
 	display: block;
+	position: relative;
 	background: #eb501a;
 	border:1px solid #fff;
 	box-shadow:0px 2px 8px #9D310B;
@@ -1520,6 +1532,22 @@ a.lets-talk:hover {
 	-o-box-shadow:0px 0px 2px #9D310B;
 }
 
+.letstalkbox {
+	
+ position: absolute; 
+display: block;
+text-align: center;
+margin: 0 auto;
+background: #fff;
+top: -37px;
+left: -7px;
+width: 190px;
+padding: 17px 5px;
+box-shadow: 1px 1px 44px rgba(0,0,0,0.4);
+}
+.letstalkbox span{
+	display: block
+}
 .landing-circle {
 
 	margin:0 auto 30px;
@@ -1572,6 +1600,7 @@ text-transform: uppercase;
 	display: none;
 	line-height: 16px;
 	opacity: 0;
+	padding-top: 10px;
 }
 
 .landing-circle:hover {
@@ -1598,4 +1627,8 @@ text-transform: uppercase;
 .charts-bullets li {
 	background: url(../img/orange-check.png) no-repeat left top;
 	padding-left:20px;
+}
+
+#why-small-business .small-buz-box:nth-of-type(3n+1){
+clear:both;
 }

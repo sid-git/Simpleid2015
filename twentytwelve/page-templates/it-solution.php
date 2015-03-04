@@ -11,19 +11,15 @@ get_header(); ?>
 			</div>
 		</nav>
 	</div>
-   <div class="container-fluid new-banner banner-365 red-orange-bg section-spacer">
+   <div class="container-fluid new-banner banner-it red-orange-bg section-spacer">
     	<div class="container">
     		<div class="row">
-    			<div class="col-md-7 col-centered"><iframe src="http://fast.wistia.net/embed/iframe/hpiiw9u7q1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="540" height="304"></iframe>
-    			</div>
+    			
     		</div>
     		<div class="row">
     			<div class="col-md-8 col-centered text-center banner-des">
-    				<h1>Run your business the simple way.</h1>
-    				<p>
-    					Office 365 is your complete office in the cloud, with applications you know, <br/>
-						always up to date and accessible from virtually anywhere.
-    				</p>
+    				<h1>I.T. Solutions For The Small Business. <br/>Simplified.</h1>
+    				
     				<!--<a href="#" class="btn transparent"> ask now</a>-->
     			</div>
     		</div>
@@ -32,7 +28,17 @@ get_header(); ?>
     </div>
     <div class="container-fluid red-orange-bg">
     	<div class="row orang-bg ">
-    		<a href="" class="lets-talk btn red-orange-bg">Lets Talk</a>
+    		<a href="" class="lets-talk btn red-orange-bg">Lets Talk
+                 <div class="letstalkbox">
+                <span>
+                    Call Us Now!
+                </span> 
+                <span>
+                    1300 30 40 37
+                </span>
+            </div>
+            </a>
+           
     	</div>
     </div>
     <div class="container">
@@ -92,7 +98,7 @@ Simple iD provides a bespoke approach, complete setup and ongoing support for IT
     				<a href="#">
 						<h3>web hosting</h3>
 	    				<div class="landing-circle-des">
-	    					24/7 unlimited support via phone + email » 
+	    					There are lots of places to host your site. But not all of them will take care of you the way we do » 
 	    				</div>
 	    				</a>
 	    				</div>
@@ -102,7 +108,7 @@ Simple iD provides a bespoke approach, complete setup and ongoing support for IT
     				<a href="#">
 						<h3>support made simple</h3>
 	    				<div class="landing-circle-des">
-	    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt » 
+	    					24/7 unlimited support via phone + email » 
 	    				</div>
 	    				</a>
 	    				</div>
@@ -148,53 +154,53 @@ Burden of I.T. Management</h2>
     </div>
     <div class="container">
     	<div class="row ">
-    		<div class="col-md-10 col-centered section-spacer" id="why-simpleid">
+    		<div class="col-md-10 col-centered section-spacer" id="why-small-business">
     			<h2 class="text-center heading">Why Small Business Love Simple iD</h2>
 				<div class="row top-spacer">
-					<div class="col-md-4">
+					<div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>As a Microsoft Gold Certified Partner</h4>
+                             <h4 class="red-orange-text">As a Microsoft Gold Certified Partner</h4>
                              <p>
                                  we are able to leverage the Microsoft suite to provide comprehensive solutions, including full implementation and ongoing support. 
                              </p>
                          </p>              
                     </div>
                    
-                    <div class="col-md-4">
+                    <div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>We don't just push products. </h4>
+                             <h4  class="red-orange-text">We don't just push products. </h4>
                              <p>
                                  We prefer to understand a business's needs, requirements and goals before making recommendations.
                              </p>
                          </p>              
                     </div>
-                     <div class="col-md-4">
+                     <div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>With over 7 years in the IT industry, </h4>
+                             <h4  class="red-orange-text">With over 7 years in the IT industry, </h4>
                              <p>
                                  our team is expertly equipped to implement scalable solutions to small-medium size businesses
                              </p>
                          </p>              
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>Migrating to a new IT solution can be a complex process</h4>
+                             <h4  class="red-orange-text">Migrating to a new IT solution can be a complex process</h4>
                              <p>
                                  Simple iD ensures a smooth migration with an expert Support Made Simple™ specialist.
                              </p>
                          </p>              
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>Unlike most Managed Service organisations,</h4>
+                             <h4  class="red-orange-text">Unlike most Managed Service organisations,</h4>
                              <p>
                                  Simple iD avoids a one-size-fits-all approach through broad service offerings, a highly skilled team + customised a transition plan for your business.
                              </p>
                          </p>              
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 small-buz-box">
                          <p>
-                             <h4>Our Support Made Simple™ team</h4>
+                             <h4  class="red-orange-text">Our Support Made Simple™ team</h4>
                              <p>
                                 offers higher levels of support than other IT providers through unlimited, local, 24/7 help via phone or email with knowledgeable, friendly experts.
                              </p>
