@@ -118,7 +118,7 @@ Simple iD provides a bespoke approach, complete setup and ongoing support for IT
 	        </div> 
     <div class="container">
     	<div class="row">
-    		<div class="col-md-12 charts-section" >
+    		<div class="col-md-11 col-centered charts-section section-spacer" >
     			<h2 class="text-center heading orange">Liberate Your Business From the 
 Burden of I.T. Management</h2>
     			<h4 class="heading red orange text-center">

@@ -877,7 +877,7 @@ div.banner-365 {
 	background-color:#eb501a;
 }
 div.banner-it {
-	background: url(../img/product-banners_office.jpg) no-repeat;
+	
 	background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
@@ -898,7 +898,34 @@ div.new-banner div.banner-des {
 	position: absolute;
 	top: 150px;
 	left:17%;
+	z-index: 2
+	
+}
+div.new-banner {
+	overflow: hidden;
+}
+div.new-banner img {
+	width:100%;
+	height:auto;
+	position: absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+
+}
+div.new-banner div.banner-des h1, div.new-banner div.banner-des p {
 	text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
+}
+div.banner-des a.btn{
+	padding: 5px 8px;
+color: #fff;
+background: #eb501a;
+text-transform: uppercase;
+text-shadow:0 !important;
+-moz-text-shadow:0 !important;
+-ms-text-shadow:0 !important;
+-o-text-shadow:0 !important;
+-webkit-text-shadow:0  !important;
 }
 div.new-banner div.banner-heading {
 	margin-top:10px;
@@ -939,6 +966,35 @@ footer {
 	color:#fff;
 	height: 100%;
 	min-height:434px;
+}
+.office-repeater img {
+	width:100%;
+}
+.office-repeater h2 {
+	padding-bottom:30px;
+}
+.office-repeater h2:before {
+
+	left:0;
+}
+
+.office-repeater a.learn-more {
+	padding:5px 8px;
+	color:#fff;
+	background: #eb501a;
+	text-transform: uppercase;
+}
+.office-repeater a.learn-more:hover {
+	background: #fff;
+	border:1px solid  #eb501a;
+}
+.office-repeater iframe {
+	width:100%;
+	height: 211px;
+
+}
+.office-repeater-single {
+	margin-bottom: 30px
 }
 .why-office-columns {
 	counter-reset: my-badass-counter;
