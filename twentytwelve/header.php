@@ -140,7 +140,7 @@ wp_nav_menu( $defaults );
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav simple-main-nav">
-	        <li class="menu-office"><a href="<?php bloginfo('url'); ?>/solution">IT Solution</a></li>
+	        <li class="menu-office"><a href="<?php bloginfo('url'); ?>/solution">IT Solutions</a></li>
 	        <li class="menu-marketing"><a href="<?php bloginfo('url'); ?>/online-marketing">Online Marketing</a></li>
 	        <li class="menu-design"><a href="<?php bloginfo('url'); ?>/web-design-creative-services">Creative Services</a></li>
 	      </ul>

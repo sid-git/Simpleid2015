@@ -29,8 +29,8 @@ get_header(); ?>
     		</div>
     	</div>
     </div>
-    <div class="container">
-    	<div class="row section-spacer">
+    <div class="container home-365">
+    	<div class="row ">
     		<div class="col-md-7 office-repeater">
     			<h2 class="heading orange">
     				What is Office 365
@@ -49,60 +49,80 @@ get_header(); ?>
     			</div>
 	    			
     			
-    			<div class="office-repeater-single">
-    				
-    				<h4 class="heading red orange">
-	    				Your office from anywahere
-	    			</h4>
-	    			<p>
-	    				Whether you’re working in your office or on the go, you get a familiar, top-of-the-line set of productivity tools. Office applications —always the latest versions—let you create, edit and share from your computer or device with anyone in real time 
-	    			</p>
-	    			<a href="#" class="learn-more">
-	    				learn more »
-	    			</a>
-    			</div>
+    			
     		</div>
     		<div class="col-md-5 office-repeater">
     			<img src="<?php echo get_template_directory_uri(); ?>/img/office-right.png" alt="">
     		</div>
     	</div>
-    	<div class="row section-spacer">
+    	<div class="row">
     		
     		<div class="col-md-5 office-repeater">
     			<img src="<?php echo get_template_directory_uri(); ?>/img/office-right.png" alt="">
     		</div>
     		<div class="col-md-7 office-repeater">
-    			<h2 class="heading orange">
-    				What is Office 365
-    			</h2>
+    			
     			<div class="office-repeater-single">
     				
     				<h4 class="heading red orange">
-	    				Your office from anywahere
+	    				Stay professional and stay in sync
 	    			</h4>
 	    			<p>
-	    				Whether you’re working in your office or on the go, you get a familiar, top-of-the-line set of productivity tools. Office applications —always the latest versions—let you create, edit and share from your computer or device with anyone in real time 
-	    			</p>
+	    				Reinforce your brand and make your messages stand out with business-class email through Office 365. Plus, always have up to date and in sync calendars and contacts across all your devices. </p>
 	    			<a href="#" class="learn-more">
 	    				learn more »
 	    			</a>
     			</div>
 	    			
     			
-    			<div class="office-repeater-single">
-    				
-    				<h4 class="heading red orange">
-	    				Your office from anywahere
-	    			</h4>
-	    			<p>
-	    				Whether you’re working in your office or on the go, you get a familiar, top-of-the-line set of productivity tools. Office applications —always the latest versions—let you create, edit and share from your computer or device with anyone in real time 
-	    			</p>
-	    			<a href="#" class="learn-more">
-	    				learn more »
-	    			</a>
-    			</div>
+    			
     		</div>
     	</div>
+        <div class="row ">
+            <div class="col-md-7 office-repeater">
+               
+                <div class="office-repeater-single">
+                    
+                    <h4 class="heading red orange">
+                       Online meetings + teamwork made simple
+                    </h4>
+                    <p>
+                        Connect better with customers and colleagues with a range of communication tools through Lync, with online presence, business instant messaging and voice or HD video conferencing. </p>
+                    <a href="#" class="learn-more">
+                        learn more »
+                    </a>
+                </div>
+                    
+                
+                
+            </div>
+            <div class="col-md-5 office-repeater">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/office-right.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-5 office-repeater">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/office-right.png" alt="">
+            </div>
+            <div class="col-md-7 office-repeater">
+              
+                <div class="office-repeater-single">
+                    
+                    <h4 class="heading red orange">
+                       Collaborate on files from anywhere
+                    </h4>
+                    <p>
+                       Keep everyone working together with SharePoint. Organise projects and documents, work together on the same file, share files with business partners and more. </p>
+                    <a href="#" class="learn-more">
+                        learn more »
+                    </a>
+                </div>
+                    
+                
+                
+            </div>
+        </div>
 
 
 	</div> 

@@ -3,74 +3,110 @@
     <li class="<?php if(is_page('office365')) echo 'active'; ?> dropdown-selected"><a href="<?php echo get_permalink( $post->post_parent ); ?>">office 365</a>
 
             <span class="nav-sub-bg">.</span>
+            <div class="inner-page-nav-sub">
+                 <ul class="">
+                    <li><a href="<?php echo get_permalink( get_page_by_title( 'office365' ) ); ?>">overview <span class="arrow red-text"></span></a>
 
-            <ul class="inner-page-nav-sub">
+                        
 
-                <li><a href="<?php echo get_permalink( $post->post_parent ); ?>office">office <span class="arrow red-text"></span></a>
+                    </li>
 
-                    <small>	Office for the way you work today</small>
+                    <li><a href="<?php echo get_permalink( get_page_by_title( 'Benefits' ) ); ?>">benefits <span class="arrow red-text"></span></a>
 
-                    <div class="inner-nav-drop-img">
+                        
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/tablet-office.png">
+                    </li>
 
-                    </div>
+                    <li><a href="<?php echo get_permalink( get_page_by_title( 'Compare Plans' ) ); ?>">plans <span class="arrow red-text"></span></a>
 
-                </li>
+                        
 
-                <li><a href="<?php echo get_permalink( $post->post_parent ); ?>exchange">exchange <span class="arrow red-text"></span></a>
+                    </li>
 
-                    <small>	Communicate from anywhere</small>
+                    <li><a href="<?php echo get_permalink( get_page_by_title( 'Resources' ) ); ?>">resources <span class="arrow red-text"></span></a>
 
-                    <div class="inner-nav-drop-img">
+                        
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Exchange.png">
+                    </li>
 
-                    </div>
+                 </ul>
+                 <ul class="product-nav">
 
-                </li>
+                    <li class="red-orange-text">products</li>
 
-                <li><a href="<?php echo get_permalink( $post->post_parent ); ?>lync">lync <span class="arrow red-text"></span></a>
+                        <li><a href="<?php echo get_permalink( get_page_by_title( 'Office' ) ); ?>">office <span class="arrow red-text"></span></a>
 
-                    <small>	Online meetings and connecting made easy</small>
+                            <small> Office for the way you work today</small>
 
-                    <div class="inner-nav-drop-img">
+                            <div class="inner-nav-drop-img">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Lync.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/365-icon-orange.png">
 
-                    </div>
+                            </div>
 
-                </li>
+                        </li>
 
-                <li><a href="<?php echo get_permalink( $post->post_parent ); ?>sharepoint">sharepoint <span class="arrow red-text"></span></a>
+                        <li><a href="<?php echo get_permalink( get_page_by_title( 'Business Email' ) ); ?>">Business Email <span class="arrow red-text"></span></a>
 
-                    <small>Collaborate on docs and projects from anywhere</small>
+                            <small> Communicate from anywhere</small>
 
-                    <div class="inner-nav-drop-img">
+                            <div class="inner-nav-drop-img">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Sharepoint.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/exchange-orange.png">
 
-                    </div>
+                            </div>
 
-                </li>
+                        </li>
 
-                <li><a href="<?php echo get_permalink( $post->post_parent ); ?>onedrive">onedrive <span class="arrow red-text"></span></a>
+                        <li><a href="<?php echo get_permalink( get_page_by_title( 'Lync' ) ); ?>">lync <span class="arrow red-text"></span></a>
 
-                    <small>Share files simply</small>
+                            <small> Online meetings and connecting made easy</small>
 
-                    <div class="inner-nav-drop-img">
+                            <div class="inner-nav-drop-img">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Onedrive.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/lync-orange.png">
 
-                    </div>
+                            </div>
 
-                </li>
+                        </li>
 
-            </ul>
+                        <li><a href="<?php echo get_permalink( get_page_by_title( 'Sharepoint' ) ); ?>">sharepoint <span class="arrow red-text"></span></a>
+
+                            <small>Collaborate on docs and projects from anywhere</small>
+
+                            <div class="inner-nav-drop-img">
+
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/sharepoint-orange.png">
+
+                            </div>
+
+                        </li>
+
+                        <li><a href="<?php echo get_permalink( get_page_by_title( 'Onedrive' ) ); ?>">onedrive <span class="arrow red-text"></span></a>
+
+                            <small>Share files simply</small>
+
+                            <div class="inner-nav-drop-img">
+
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/clouds-icon-orange.png">
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+            </div>
+
+             
+
+
+
+
+            
 
     </li>
 
-    <li><a href="<?php echo get_permalink( $post->post_parent ); ?>#office-benefits">the benefits</a>
+    <li class="<?php if(is_page('hybrid-solutions')) echo 'active'; ?>"><a href="<?php echo get_permalink( get_page_by_title( 'Hybrid Solutions' ) ); ?>">Hybrid Solutions</a>
 
     		<span class="nav-sub-bg">.</span>
 
@@ -92,13 +128,15 @@
 
     </li>
 
-    <li><a href="<?php echo get_permalink( $post->post_parent ); ?>#why-simpleid">why simple id</a></li>
+    <li class="<?php if(is_page('cloud-backup')) echo 'active'; ?>"><a href="<?php echo get_permalink( get_page_by_title( 'Cloud Backup' ) ); ?>">Cloud Backup</a></li>
 
-    <li class="<?php if(is_page('support')) echo 'active'; ?>"><a href="<?php echo get_permalink( $post->post_parent ); ?>support">support</a></li>
+    <li class="<?php if(is_page('web-hosting')) echo 'active'; ?>"><a href="<?php echo get_permalink( get_page_by_title( 'Web Hosting' ) ); ?>">Web Hosting</a></li>
 
-    <li class="<?php if(is_page('plans')) echo 'active'; ?>"><a href="<?php echo get_permalink( $post->post_parent ); ?>plans">Compare plans</a></li>
+    <li class="<?php if(is_page('phone-systems')) echo 'active'; ?>"><a href="<?php echo get_permalink( get_page_by_title( 'Phone Systems' ) ); ?>">Phone Systems</a></li>
 
-    <li class="<?php if(is_page('resources')) echo 'active'; ?>"><a href="<?php echo get_permalink( $post->post_parent ); ?>resources">resources</a></li>
+    <li class="<?php if(is_page('support')) echo 'active'; ?>"><a href="<?php echo get_permalink(get_page_by_title( 'Support' )); ?>">Support</a></li>
 
 </ul>
+
+
 

@@ -41,12 +41,33 @@
     </div>                                                      
 
     </footer>-->
-     <div class="container-fluid red-orange-bg">
-    	<div class="row orang-bg ">
-    		<a href="" class="lets-talk btn red-orange-bg">Lets Talk</a>
+    <?php if(is_tree(2818)){ //if it is IT solution page or its children pages ?>
+   
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<img  class="soundsgreat" src="<?php echo get_template_directory_uri(); ?>/img/soundsgreat.png" alt="">
+    		</div>
     	</div>
     </div>
-    
+     <div class="container-fluid red-orange-bg">
+    	<div class="row orang-bg ">
+
+    		<a  class="lets-talk btn red-orange-bg">Get in Touch</a>
+    	</div>
+    </div>
+     <div class="container-fluid red-orange-bg lets-talk-box">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-md-12">
+     				<h2 class=" white-text">Call Us Now on 1300 30 40 37<br/>or Send Us a Message</h2>
+		<?php echo do_shortcode( '[contact-form-7 id="2918" title="get in touch"]' ); ?>
+     			</div>
+     		</div>
+     	</div>	
+		
+    </div>
+    <?php } ?>
     <footer>
     	<div class="container top-spacer">
     		<div class="row">
@@ -69,8 +90,8 @@
 	    		</div>
 	    		<div class="col-md-3 footer-box connect">
 	    			<h4>Connect</h4>
-	    			<ul>
-	    				<ul class="list-unstyled">
+	    			
+	    			<ul class="list-unstyled">
 	    				<li>
 	    					<a href="https://www.facebook.com/simpleidaustralia" target="_blank" class="" ><span class="fa fa-facebook"></span> facebook </a> <span class="arrow"></span>
 	    				</li>
@@ -84,7 +105,7 @@
 	    					<a href="https://plus.google.com/+SimpleiDEastMelbourne/" target="_blank" class="" ><span class="fa fa-google"></span> google + </a> <span class="arrow"></span>
 	    				</li>
 	    			</ul>
-	    			</ul>
+	    		
 	    		</div>
 	    		<div class="col-md-3 footer-box">
 	    			<h4>The simple blog</h4>
@@ -164,8 +185,32 @@
 		/* highlight the top nav as scrolling occurs */
 		jq('body').scrollspy({ target: '.float-quote' });
 		
+
+
+  
+	var countclick = false;	
+    jq('.lets-talk.btn').click(function(){
+    	
+    	jq('.lets-talk-box').slideToggle();
+    	if(!countclick){
+    		jq(this).text('close');
+    		countclick = true;
+    	}else{
+    		jq(this).text("get in touch"); 
+    		countclick=false;
+    	}
+    });
+  	
+  	jq('div.moreabout').click(function(){
+  	    if(jq(this).css('height') == '40px') {
+    	jq(this).css('height':"300px");
+
+	}
+  });
+		
     </script>
     
+  
 
 
 
@@ -697,6 +742,10 @@ wp_nav_menu( $defaults );
   ga('require', 'displayfeatures');
 
   ga('send', 'pageview');
+
+
+ 
+
 
 </script>
 

@@ -45,8 +45,8 @@ get_header(); ?>
     		<div class="row it-landing-circles section-spacer">
     			<div class="col-md-10 col-centered">
     				<div class="col-md-12">
-    					<p>
-    						In today’s business environment, doing more with less has become the new normal. Now it’s imperative to get the most out of every investment. That’s where we come in. 
+    					<p class="section-spacer">
+    						In today’s business environment, <span class="orange-text">doing more with less </span>has become the new normal. Now it’s imperative to get the most out of every investment.<br/><br/> That’s where we come in. 
 
 Simple iD provides a bespoke approach, complete setup and ongoing support for IT solutions for your small business.
 
@@ -125,7 +125,7 @@ Burden of I.T. Management</h2>
     				Top 10 Reasons Businesses are<br/> Switching 
 					to  Office 365
     			</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt » </p>
+               
     			<img src="<?php echo get_template_directory_uri(); ?>/img/charts.jpg" alt="">
                 <div class="col-md-6">
                     <ul class="charts-bullets">
